@@ -2,4 +2,4 @@
 ### thia is bloging project 
 
 
-blog :read: ,:dancing: ,
+i love coding and make making blogs :coffee: :pizza:
