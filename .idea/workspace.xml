@@ -20,12 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b90028c0-3cab-4cfb-929f-e5d83178368b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/blogHome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/blogPost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saybis/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/saybis/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saybis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/saybis/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,8 +55,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/home" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -74,5 +89,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl" timestamp="1594578406678">
+      <screen x="0" y="27" width="1366" height="705" />
+    </state>
+    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.705@0.27.1366.705" timestamp="1594578406678" />
   </component>
 </project>
