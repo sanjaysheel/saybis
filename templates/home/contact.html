@@ -2,8 +2,39 @@
 {% block title %}contact page{% endblock title %}
 {% block body %}
 
-
-
-<p>hello this is contact page</p>
-
+<div class="container">
+    <form method="post" action="/contact/"  class="row g-1 mt-5 rounded-lg">{% csrf_token %}
+          <div class="col-md-5">
+            <label for="firstname" class="form-label">First Name</label>
+            <input type="text" class="form-control" name="firstname" id="firstname">
+          </div>
+          <div class="col-md-5 ml-1">
+            <label for="lastname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" name="lastname" id="lastname">
+          </div>
+          <div class="col-md-5">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" name="inputEmail4" id="inputEmail4">
+          </div>
+          <div class="col-md-5">
+            <label for="contact_number" class="form-label">Contact number</label>
+            <input type="number" class="form-control" name="contact_number" id="contact_number">
+          </div>
+          <div class="col-md-5">
+            <label for="statename" class="form-label">State Name</label>
+            <input type="text" class="form-control" id="statename" name="statename">
+          </div>
+          <div class="col-md-5">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control" id="city" name="city">
+          </div>
+          <div class="mb-3 col-md-10">
+              <label for="desc" class="form-label">Write your issue</label>
+              <textarea class="form-control" id="desc" name="desc" rows="3"></textarea>
+          </div>
+          <div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+    </form>
+</div>
 {% endblock body %}

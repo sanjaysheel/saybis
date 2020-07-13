@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block title %}contact page{% endblock title %}
+{% block body %}
+
+<div class="container">
+    <form action="./contact" method="post" class="row g-1 mt-5 rounded-lg border border-primary">
+      <div class="row d-flex justify-content-center">
+          <div class="col-md-5">
+            <label for="firstname" class="form-label">First Name</label>
+            <input type="email" class="form-control" name="firstname" id="firstname">
+          </div>
+          <div class="col-md-5 ml-1">
+            <label for="lastname" class="form-label">Last Name</label>
+            <input type="email" class="form-control" name="lastname" id="lastname">
+          </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+          <div class="col-md-5">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" name="inputEmail4" id="inputEmail4">
+          </div>
+           <div class="col-md-2 ml-1">
+            <label for="contact_code" class="form-label">country-Code</label>
+            <input type="number" class="form-control" name="contact_code" id="contact_code">
+          </div>
+        <div class="col-md-3">
+            <label for="contact_number" class="form-label">Contact number</label>
+            <input type="number" class="form-control" name="contact_number" id="contact_number">
+          </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+          <div class="col-md-5">
+            <label for="statename" class="form-label">State Name</label>
+            <input type="text" class="form-control" id="statename" name="statename">
+          </div>
+          <div class="col-md-5">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control" id="city" name="city">
+          </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+          <div class="mb-3 col-md-10">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+      </div>
+
+<!--      <div class="col-12">-->
+<!--        <div class="form-check">-->
+<!--          <input class="form-check-input" type="checkbox" id="gridCheck">-->
+<!--          <label class="form-check-label" for="gridCheck">-->
+<!--              cheak out      -->
+<!--          </label>-->
+<!--        </div>-->
+<!--      </div>-->
+
+
+      
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </div>
+    </form>
+</div>
+{% endblock body %}
