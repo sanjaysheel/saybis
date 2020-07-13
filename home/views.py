@@ -7,14 +7,16 @@ def home(request):
 
 def contact(request):
     if request.method == 'post':
-        fname = request.POST['firstname']
-        lname = request.POST['lastname']
-        email = request.POST['inputEmail4']
-        contact = request.POST['contact_number']
-        state = request.POST['statename']
-        city = request.POST['city']
-        desc = request.POST['desc']
-        con = Contact(first_name= fname,last_name=lname,email_id=email,state=state,city=city,desc=desc,contact_number=contact)
+        fname = request.POST.get('firstname', '')
+        lname = request.POST.get('lastname', '')
+        email = request.POST.get('inputEmail4', '')
+        contact = request.POST.get('contact_number', '')
+        state = request.POST.get('statename', '')
+        city = request.POST.get('city', '')
+        desc = request.POST.get('desc', '')
+        con = Contact(fname=fname,lname=lname,email=email,
+                      state=state,city=city,desc=desc,contact=contact)
+        print(fname)
         con.save()
     return render(request,'home/contact.html')
 

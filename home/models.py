@@ -11,7 +11,7 @@ class Contact(models.Model):
     state = models.CharField(max_length=20,default='')
     city = models.CharField(max_length=20,default='')
     desc = models.CharField(max_length=500,default='')
-    contact_number = models.IntegerField(max_length=14,default='')
+    contact_number = models.TextField()
     time = models.DateTimeField(auto_now_add=True,blank=True)
 
     def __str__(self):
